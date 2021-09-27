@@ -24,6 +24,7 @@
   color: white;
 }
 
+
 .App-link {
   color: #61dafb;
 }
@@ -35,4 +36,119 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.card-container{
+  transition: all .2s;
+  float: left;
+width: 545px;
+margin-top: 50px;
+margin-left: 100px;
+overflow: hidden;
+box-shadow: 0px 0px 15px -7px;
+
+}
+
+.rating{
+   top:80px;
+   margin-left:460px;
+   font-size: 12px;
+   color:white;
+   background-color:orange;
+   padding:10px;
+   border-block:none;
+   border-radius:10px 10px;
+   position:absolute;
+}
+
+.rank{
+  top:220px;
+  margin-left:340px;
+  color:white;
+  font-weight:bold;
+  font-size:12px;
+  position:absolute;
+}
+
+.clgDetails{
+display: flex;
+}
+
+.clgName{
+  margin-left:15px;
+  font-weight:bold;
+  color:gray;
+}
+.image-container img{
+  filter: brightness(25%);
+  overflow: hidden;
+  height: 200px;
+
+}
+
+.price{
+  margin-left:200px;
+  font-size:11px;
+  color:gray;
+}
+.disPrice{
+  border-radius: 50px 0 0;
+  margin-left:10px;
+  background-color:red;
+  color:white
+}
+.addrs{
+  display: flex;
+margin-top: -20px;
+}
+.orPrice{
+  margin-left:115px;
+  margin-top:0vh;
+  font-size:25px;
+  font-weight:bold;
+   color:red;
+}
+.feecl{
+  margin-top: -30px;
+  margin-left:410px;
+  font-size:11px;
+  color:gray;
+}
+.flat{
+  margin-top: -25px;
+  color:gray;
+  border-radius:0  30px 30px 0 ;
+   border-block:none;
+   border-block:30px;
+   font-weight:bold;
+   background-color:#CCE5FF;
+   padding:10px 15px;
+  font-size:12px;
+  margin-bottom: 5px;
+}
+.wifi{
+  margin-top: -20px;
+  color:#00ffff;
+  font-size:13px; 
+  margin-left:45px;
+  font-weight:bold;
+  margin-bottom: -10px;
+}
+ .innerr{
+  top:206px;
+  display:flex;
+  border-radius:30px 30px;
+  border-block:none;
+   padding:10px 15px;
+    margin-left: 10px;
+    color:gray;
+    background-color:white;
+  position:absolute;
+}
+
+.topHead{
+  display: flex;
+  margin-left: 25px;
+
 }
